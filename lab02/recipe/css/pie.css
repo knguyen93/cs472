@@ -9,7 +9,7 @@ body {
     font-size: 18pt;
     background: #fff;
     color: #404040;
-    background-image: url(images/silverware.jpg);
+    background-image: url(../images/silverware.jpg);
 }
 
 body a {
@@ -17,7 +17,7 @@ body a {
 }
 
 body ul {
-    list-style-image: url(images/pie_icon.gif);
+    list-style-image: url(../images/pie_icon.gif);
 }
 
 .header_panel {
