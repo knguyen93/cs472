@@ -46,9 +46,26 @@ body div.header_section {
     background: #778899;
     margin-left: 0;
     margin-right: 0;
+    padding-bottom: 0;
 }
 
-.header_section .special {
+.menus {
+    display: flex;
+    flex-direction: row;
+}
+
+.menus .menu_item {
+    padding: 6px;
+    color: #fff;
+}
+
+.menus .menu_item:hover {
+    opacity: .8;
+    text-decoration: none;
+    background: #20B2AA;
+}
+
+.special {
     color: #20B2AA;
     font-weight: 500;
 }
@@ -61,7 +78,6 @@ body div.header_section {
 .mood_section {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
     padding: 15px;
 }
 
