@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 150px;
+    min-height: 85%;
+    font-size: 18pt;
+    background: #fff;
+    color: #404040;
+    background-image: url(images/silverware.jpg);
+}
+
+.header_panel {
+    background: #F0F0F0;
+    color: #A4A400;
+    font-family: Lucida Sans Unicode, Helvetica, Aria, sans-serif;
+    font-size: 22pt;
+    font-weight: 700;
+    text-decoration: underline;
+    padding: 6px;
+    padding-left: 0;
+}
+
+.header_panel.top_header {
+    text-align: center;
+}
+
+.content .lines {
+    margin-top: 5px;
+}
+
+.content .lines span {
+    padding: 3px;
+    border-radius: 10px;
+    background: #E0FFFF;
+    border: solid 1px;
+}
+
+.content .lines a {
+    text-decoration: none;
+}
+
+.content {
+    font-size: 11pt;
+    text-align: center;
+    width: 30%;
+    font-family: Georgia, Garamond;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.pies_row {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    width: 100%;
+}
+
+.content:not(:last-child) {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 11pt;
+}
+
+.preformatted {
+    font-family: monospace;
+    white-space: pre;
+}
