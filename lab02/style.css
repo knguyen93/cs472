@@ -1,3 +1,7 @@
+html {
+    background: #778899;
+}
+
 body {
     background-color: #f1f1f1;
     color: #1d1d1f;
@@ -34,15 +38,19 @@ body p::first-letter {
 body>div:not(.mood_section) {
     margin-left: 15px;
     margin-right: 15px;
+    padding: 15px;
+}
+
+body div.header_section {
+    color: #fff;
+    background: #778899;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .header_section .special {
     color: #20B2AA;
     font-weight: 500;
-}
-
-.header_section h1 {
-    color: #2F4F4F;
 }
 
 .movies_section ol {
