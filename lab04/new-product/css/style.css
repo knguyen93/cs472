@@ -1,0 +1,7 @@
+#btnCancel {
+    border: 1px solid darkorange;
+}
+
+#btnCancel:hover {
+    background: darkorange;
+}
