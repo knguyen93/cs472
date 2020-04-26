@@ -14,8 +14,11 @@ and they must enter it beginning with either the string, "http://" or "https://"
 
 <head>
     <title>MIU Golden Dorm Market</title>
-    <link rel="stylesheet" href="../lib/bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    <script src="../lib/bootstrap-4.4.1-dist/js/jquery-slim.min.js"></script>
+    <script src="../lib/bootstrap-4.4.1-dist/js/popper.min.js"></script>
     <script src="../lib/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../lib/bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -29,7 +32,7 @@ and they must enter it beginning with either the string, "http://" or "https://"
     </div>
     <div class="container mt-5 d-flex justify-content-center">
         <div class="content w-50">
-            <form>
+            <form action="#" onsubmit="handleSubmit()" id="loginForm">
                 <div class="form-group">
                     <label for="email">Email address</label>
                     <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
