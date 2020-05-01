@@ -1,4 +1,8 @@
+'use strict';
+
 function handleAddProduct() {
+
+    // Lab 04
     let form = document.getElementById("productForm");
     let productNumber = form.elements['productNumber'].value;
     let productName = form.elements['productName'].value;
@@ -13,6 +17,24 @@ function handleAddProduct() {
         + "\nUnit Price: " + unitPrice 
         + "\nSupplier: " + supplier 
         + "\nDate: " + date;
-        
-    alert(data)
+    
+    //alert(data)    
+
+    // Lab09
+    let prodNumber = $('#productNumber').val();
+    let prodName = $('#productName').val();
+    let quan = $('#quantity').val();
+    let unitP = $('#unitPrice').val();
+    let sup = $('#supplier').val();
+    let d = $('#date').val();
+
+    let fData = "Form Data: <br>Product Number: " + prodNumber 
+        +"<br>Product Name: " + prodName 
+        + "<br>Quantity: " + quan 
+        + "<br>Unit Price: " + unitP 
+        + "<br>Supplier: " + sup 
+        + "<br>Date: " + d;
+    $('#submitedContent').html(fData);
+
+    return false;
 }
